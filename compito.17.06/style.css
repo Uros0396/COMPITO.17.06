@@ -1,0 +1,79 @@
+/*ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron*/
+
+.col-md-6 h1{
+    color: blue;
+}
+
+/*ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar*/
+nav > span{
+    color: blueviolet;
+}
+
+/*ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron*/
+
+.font-weight-bold {
+    color: greenyellow;
+}
+
+/*ESERCIZIO 4) Crea un selettore per selezionare il primo blog post*/
+
+.row.mb-2 .col-md-6:first-child {
+    background-color: gray;
+}
+
+/*ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso*/
+
+.row.mb-2 .col-md-6:first-child h3{
+    color: coral;
+ }
+
+/*ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar*/
+
+nav span:nth-child(even) {
+    color: yellow;
+}
+
+/*ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio")*/
+
+aside div:nth-child(2) li a[href="#"] {
+
+    color: chocolate;
+}
+
+/*ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post*/
+
+.col-md-8 .blog-post:nth-child(2) .blog-post-meta:first-child a[href="#"]:first-child {  /*SBAGLIATO*/
+    color: red; 
+}
+
+/*ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post*/
+
+.col-md-8 .blog-main div:nth-child(3) ul li:nth-of-type(2) { /*SBAGLIATO*/
+    color: red;
+}
+
+/*ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra*/
+
+.float-right {
+    color: aquamarine;
+}
+
+/*ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso*/
+
+.btn.btn-outline-secondary.disabled {
+    color: green;
+}
+
+/*ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer*/
+
+.blog-footer a[href="https://twitter.com/mdo"] {
+    color: palevioletred;
+}
+
+
+
+
+
+
+
+
